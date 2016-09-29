@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Block</title>
+</head>
+
+<body>
+    <h1>My web page	</h1>
+    <p id="myPar"> i am from paragraf</p>
+    <div id="myDiv"> i am from div.</div>
+    <p>
+        <button type="button" onclick="myFunction()">Klick disini</button>
+    </p>
+    <script>
+    function myFunction() {
+        document.getElementById('myPar').innerHTML = " paragraf after click"
+        document.getElementById('myDiv').innerHTML = "div after click"
+    }
+    </script>
+    <p>
+        when you click 'klick disini', the two elements will change
+    </p>
+</body>
+
+</html>
