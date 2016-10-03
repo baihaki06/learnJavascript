@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>undefiened</title>
+</head>
+
+<body>
+    <p>
+        Variables can be emptied by setting the value to <b>undefined</b>.
+    </p>
+    <p id="demo"></p>
+    <script>
+    var person = {
+        nama: "baihaki",
+        alamat: "bekasi"
+    };
+    var person = undefined;
+    document.getElementById('demo').innerHTML = person + "<br>" + typeof person
+    </script>
+</body>
+
+</html>
