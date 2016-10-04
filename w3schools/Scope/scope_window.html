@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>scope_window</title>
+</head>
+
+<body>
+    <p> in html, all global variables will become window variables .</p>
+    <p id="demo"> </p>
+    <script>
+    var carName = "Pajero" ;
+    document.getElementById("demo").innerHTML = "i can display " + window.carName
+    </script>
+</body>
+
+</html>
