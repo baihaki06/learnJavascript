@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>object1</title>
+</head>
+
+<body>
+    <p>never create string as objects</p>
+    <p>String and objects cannot be safely compared</p>
+    <p id="demo"></p>
+    <script>
+    var a = "Baihaki";
+    var b = new String("Baihaki");
+    document.getElementById('demo').innerHTML = (a==b);
+    </script>
+</body>
+
+</html>

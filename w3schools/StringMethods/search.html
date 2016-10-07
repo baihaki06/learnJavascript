@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>search</title>
+</head>
+<body>
+	
+	<p id="p1">Please locate where 'locate'  occurs!</p>
+	<button onclick="myFunction()">try It</button>
+	<p id="demo"></p>
+
+	<script>
+		function myFunction() {
+			var text = document.getElementById('p1').innerHTML;
+			var pos = text.search('locate') ;
+			document.getElementById('demo').innerHTML = pos ;
+		}
+	</script>
+</body>
+</html>

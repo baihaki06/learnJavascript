@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>replace</title>
+</head>
+
+<body>
+    <p>Replace "Microsoft" with "W3schools" in the paragraf below</p>
+    <button onclick="myFunction()"> Try It</button>
+    <p id="demo"> Please visit to microsoft!</p>
+    <script>
+    function myFunction() {
+        var str = document.getElementById('demo').innerHTML;
+        var text = str.replace("microsoft", "w3school");
+        document.getElementById('demo').innerHTML = text;
+    }
+    </script>
+</body>
+
+</html>

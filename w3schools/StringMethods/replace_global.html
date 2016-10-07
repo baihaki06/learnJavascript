@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>replace_global</title>
+</head>
+
+<body>
+    <p>Replace all accurencess of "microsoft" with "W3school" in the paragraf below</p>
+    <button onclick="myFunction()">Try It</button>
+    <p id="demo">please to visit microsoft to microsoft!</p>
+    <script>
+    function myFunction() {
+        var text = document.getElementById('demo').innerHTML;
+        var pos = text.replace(/microsoft/g, "w3school")
+        document.getElementById('demo').innerHTML = pos ;
+
+    }
+    </script>
+</body>
+
+</html>

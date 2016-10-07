@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>split_char</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+    var text = "Hello";
+    var arr = text.split("");
+    var str = "";
+    var i ;
+    for (i = 0; i < arr.length; i++) {
+        str += arr[i] + "<br>"
+    }
+
+    document.getElementById('demo').innerHTML = str;
+    </script>
+</body>
+
+</html>
