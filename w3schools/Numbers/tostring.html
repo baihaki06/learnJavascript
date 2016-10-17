@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To string</title>
+</head>
+
+<body>
+    <p>The toString() can output numbers as base 16 (hex),base 8 (octal), as base 2 (binary) </p>
+    <p id="demo"></p>
+    <button onclick="myFunction()">Try It</button>
+    <script>
+    function myFunction() {
+        var myNumbers = 128;
+        document.getElementById('demo').innerHTML = '128 = ' +
+            myNumbers + "decimal , " +
+            myNumbers.toString(16) + " hexadecimal,  " +
+            myNumbers.toString(8) + " Octal " +
+            myNumbers.toString(2) + " 	binary"
+    }
+    </script>
+</body>
+
+</html>

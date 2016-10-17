@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tofixed</title>
+</head>
+<body>
+	<p>
+		The toFixed() method rouds a number to  a given numbers of digits
+	</p>
+
+	<p>For working for money, toFixed(2) is perfect</p>
+
+	<p id="demo"></p>
+
+	<script>
+		var x = 9.656 ;
+		document.getElementById('demo').innerHTML =
+		x.toFixed() + "<br>" +
+		x.toFixed(2) + "<br>" +
+		x.toFixed(4) + "<br>" +
+		x.toFixed(6) ;
+	</script>
+</body>
+</html>

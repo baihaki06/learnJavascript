@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>infinity_zero</title>
+</head>
+
+<body>
+    <p>
+        Devision by zero zenerates infinity
+    </p>
+    <button onclick="myF()"> Tri It</button>
+    <p id="demo"></p>
+    <script>
+        function myF() {
+            var x = 2 / 0;
+            var y = -2 / 0;
+            document.getElementById('demo').innerHTML = x + "<br >" + y;
+        }
+    </script>
+</body>
+
+</html>

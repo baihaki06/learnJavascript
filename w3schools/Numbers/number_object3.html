@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>number_object3</title>
+</head>
+<body>
+	<p>Never create numbers as objects</p>
+	<p>javaScript Object cannot be compered</p>
+
+	<p id="demo"></p>
+
+	<script>
+		var x = new Number(1000) ;
+		var y = new Number(1000) ;
+		document.getElementById('demo').innerHTML = (x==y) ;
+		
+	</script>
+</body>
+</html>

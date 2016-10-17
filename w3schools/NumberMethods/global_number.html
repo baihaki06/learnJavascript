@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>global_number</title>
+</head>
+
+<body>
+    <p>
+        The global JavaScript funtion Number() convers variables to numbers
+    </p>
+    <p id="demo"></p>
+    <script>
+    document.getElementById('demo').innerHTML =
+        Number(true) + "<br>" +
+        Number(false) + "<br>" +
+        Number(new Date()) + "<br>" +
+        Number(" 10") + "<br>" +
+        Number("10 ") + "<br>" +
+        Number("10 6");
+    </script>
+</body>
+
+</html>

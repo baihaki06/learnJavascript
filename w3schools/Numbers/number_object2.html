@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>number_object2</title>
+</head>
+
+<body>
+    <p>Never created numbers as object</p>
+    <p>Numbers and objects cannot be safely compared.</p>
+    <p id="demo"></p>
+    <script>
+    var x = 200;
+    var y = new Number(200) ;
+    document.getElementById('demo').innerHTML = (x===y);
+    </script>
+</body>
+
+</html>
