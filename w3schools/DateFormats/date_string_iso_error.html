@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>date_string_iso_error</title>
+</head>
+<body>
+	<h2>Leading Zeroes can produce unexpected result</h2>
+	<p id="demo1"> </p>
+	<p id="demo2"></p>
+
+	<script>
+		document.getElementById('demo1').innerHTML = new Date("2016-8-12")
+		document.getElementById('demo2').innerHTML = new Date("2016-08-12")
+	</script>
+</body>
+</html>
