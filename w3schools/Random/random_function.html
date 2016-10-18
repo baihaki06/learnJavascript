@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>random_function</title>
+</head>
+
+<body>
+    <h1>JavaScript Math.random</h1>
+    <p>Every time yuor click the button , getRndInteger(max, min) return a random number between 0 (included) and 10 (include)</p>
+    <button onclick="document.getElementById('demo').innerHTML = getRndInteger(0, 10)">Try It</button>
+    <p id="demo"></p>
+    <script>
+    function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (min, max)) + min;
+    }
+    </script>
+</body>
+
+</html>
