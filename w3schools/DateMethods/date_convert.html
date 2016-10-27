@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>date_convert</title>
+</head>
+<body>
+	<p> Date.parse() return melliseconds </p>
+	<p>you can use the result value to convers the string to  a date object</p>
+	<p id="demo"></p>
+
+	<script>
+		let mel = Date.parse("januari 21, 2016")
+		let d = new Date(mel)
+		document.getElementById('demo').innerHTML = d ;
+	</script>
+</body>
+</html>

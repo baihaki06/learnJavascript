@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>date_weekday</title>
+</head>
+<body>
+	<p > you can use an array to display the name of the weekday</p>
+	<p id="demo"></p>
+	<script>
+		let d = new Date()
+		let days = ["Sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+		document.getElementById('demo').innerHTML = days[d.getDay()]
+
+	</script>
+</body>
+</html>

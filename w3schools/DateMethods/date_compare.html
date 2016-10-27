@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>date_compare</title>
+</head>
+<body>
+	<p id="demo"></p>
+
+	<script>
+		let today, someday, text ;
+		today = new Date();
+		someday = new Date();
+		someday.setFullYear(2100, 1 , 4)
+		if (someday > today){
+			text =  "Today is before Januari 14 2100"
+		}else{
+			txt = "Today is after January 14, 2100."
+		}
+		document.getElementById('demo').innerHTML = text
+	</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_add</title>
+</head>
+<body>
+	<h1>JavaScript	Array</h1>
+	<button onclick="myFunction()">Tri it</button>
+	<p id="demo"></p>
+
+	<script>
+		var fruits = ["banana", "mango", "apple", "orange"]
+		document.getElementById('demo').innerHTML = fruits
+
+		function myFunction() {
+			fruits[fruits.length] = "lemon"
+			document.getElementById('demo').innerHTML = fruits
+		}
+	</script>
+</body>
+</html>
