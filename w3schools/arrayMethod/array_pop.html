@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_pop</title>
+</head>
+<body>
+	<p>
+		The pop method remove the last elementfrom array
+	</p>
+
+	<button onclick="myFunction()"> Try It</button>
+
+	<p id="demo"></p>
+
+	<script>
+		var fruits = ["Banana", "Apple", "Orange", "Mango"]
+		document.getElementById('demo').innerHTML = fruits
+
+		function myFunction() {
+			fruits.pop();
+			document.getElementById('demo').innerHTML = fruits
+		}
+	</script>
+</body>
+</html>
