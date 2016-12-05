@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_push</title>
+</head>
+<body>
+	<p>The push method appends a new element to an array</p>
+
+	<button onclick="myFunction()"> Try It</button>
+
+	<p id="demo"></p>
+
+	<script>
+		let fruits = ["manggo", "apple", "orange", "banana"]
+		document.getElementById('demo').innerHTML = fruits
+
+		function myFunction() {
+			fruits.push("kiwi")
+			document.getElementById('demo').innerHTML = fruits
+		}
+	</script>
+</body>
+</html>

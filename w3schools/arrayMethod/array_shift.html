@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_shift</title>
+</head>
+<body>
+	<p>The shift method removes the fisrt element of an  array,  and "shift" all other element one place  up </p>
+	<button onclick="myFunction()"> Try It</button>
+	<p id="demo"></p>
+
+	<script>
+		let fruits = ["Banana", "manggo", "apple", "Orange"]
+		document.getElementById('demo').innerHTML = fruits
+
+		function myFunction() {
+			fruits.shift()
+			document.getElementById('demo').innerHTML = fruits
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_shift_return</title>
+</head>
+<body>
+	<p>The shift  method returns the element that was shifted out</p>
+
+	<button onclick="myFunction()"> Try It</button>
+	<p id="demo"></p>
+
+	<script>
+		let fruits = ["banana", "apple", "orange", "manggo"]
+		document.getElementById("demo").innerHTML = fruits
+
+		function myFunction() {
+			document.getElementById('demo').innerHTML = fruits.shift();
+		}
+	</script>
+</body>
+</html>

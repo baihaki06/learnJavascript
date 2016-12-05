@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_delete</title>
+</head>
+<body>
+	<p>delete element leaves undefined in an arry</p>
+	<button onclick="myFunction()"> Try It</button>
+
+	<p id="demo"></p>
+
+	<script>
+		var fruits = ["banana", "manggo", "apple", "orange"]
+		document.getElementById("demo").innerHTML = fruits
+
+		function myFunction() {
+			delete fruits[0];
+			document.getElementById("demo").innerHTML = fruits[0]
+		}
+	</script>
+</body>
+</html>

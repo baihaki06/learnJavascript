@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_pop_out</title>
+</head>
+<body>
+	<p>	The po method  returnes the remove item</p>
+
+	<button onclick="myFunction()"> Try It</button>
+
+	<p id="demo"></p>
+
+	<script>
+		let fruits = ["Aplle", "Banana", "Orange", "Manggo"]
+		document.getElementById('demo').innerHTML = fruits
+
+		function myFunction() {
+			document.getElementById('demo').innerHTML = fruits.pop()
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_change</title>
+</head>
+<body>
+	<p>array elements are accesed using their index number</p>
+
+	<button onclick="myFunction()"> Try it</button>
+
+	<p id="demo"></p>
+
+	<script>
+		let fruits = ["banana", "orange", "apple", "manggo"]
+		document.getElementById("demo").innerHTML = fruits
+
+		function myFunction() {
+			fruits[0] = "kiwi"
+			document.getElementById('demo').innerHTML = fruits
+		}
+	</script>
+</body>
+</html>

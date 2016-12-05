@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_unshift_return</title>
+</head>
+<body>
+	<p> The unshift return the length of the new array</p>
+	<button onclick="myFunction()"> Tri It </button>
+	<p id="demo"></p>
+
+	<script>
+		let fruits = ["banana", "apple", "manggo", "orange"]
+
+		document.getElementById("demo").innerHTML = fruits
+
+		function myFunction() {
+			document.getElementById('demo').innerHTML = fruits.unshift("kiwi")
+		}
+	</script>
+
+</body>
+</html>

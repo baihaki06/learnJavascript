@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_change_add</title>
+</head>
+<body>
+	<p> The lenght property provides an easy way to append new element to array with out using   the push() method	</p>
+
+	<button onclick="myFunction()"> Try It </button>
+
+	<p id="demo"></p>
+
+
+	<script>
+		let fruits = ["banana", "apple", "orange", "manggo"]
+		document.getElementById("demo").innerHTML = fruits
+
+		function myFunction() {
+			fruits[fruits.length] = "kiwi"
+			document.getElementById("demo").innerHTML = fruits
+		}
+	</script>
+</body>
+</html>

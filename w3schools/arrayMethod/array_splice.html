@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_splice</title>
+</head>
+<body>
+	<p>the Split() method adds new elements to an array</p>
+
+	<button onclick="myFunction()"> Try It </button>
+	<p id="demo"></p>
+
+	<script>
+		let fruits = ["banana", "apple", "manggo", "orange"]
+		document.getElementById('demo').innerHTML = fruits
+
+		function myFunction() {
+			fruits.splice(2, 0, "kiwi", "lemon")
+			document.getElementById("demo").innerHTML = fruits
+		}
+	</script>
+</body>
+</html>

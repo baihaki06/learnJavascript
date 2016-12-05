@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>array_unshift</title>
+</head>
+<body>
+	<p>the unshift method adds new elements to the begining of  an array </p>
+
+	<button onclick="myFunction()"> Try It</button>
+
+	<p id="demo"></p>
+
+
+	<script>
+		let fruits = ["banana", "apple", "orange", "manggo"]
+
+		document.getElementById("demo").innerHTML = fruits
+
+		function myFunction() {
+
+		fruits.unshift("kiwi")
+
+		document.getElementById("demo").innerHTML = fruits
+		
+		}
+
+	</script>
+</body>
+</html>
