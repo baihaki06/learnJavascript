@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>sort_object1</title>
+</head>
+
+<body>
+    <p>Click the button to sort car object on age</p>
+    <button onclick="myFunction()"> Try It</button>
+    <p id="demo"></p>
+    <script>
+    let car = [{
+        type: 'Volvo',
+        year: 2016
+    }, {
+        type: 'Saab',
+        year: 2001
+    }, {
+        type: 'BMW',
+        year: 2010
+    }]
+
+    displayCar()
+
+    function myFunction() {
+        car.sort(function(a, b) {
+            return a.year - b.year
+        })
+        displayCar()
+    }
+
+    function displayCar() {
+        document.getElementById('demo').innerHTML =
+            car[0].type + " " + car[0].year + "<br>" +
+            car[1].type + " " + car[1].year + "<br>" +
+            car[2].type + " " + car[2].year;
+
+    }
+    </script>
+</body>
+
+</html>

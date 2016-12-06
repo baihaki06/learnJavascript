@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>array_reverse</title>
+</head>
+
+<body>
+    <p>The sort() method sorts an array alphabetically.</p>
+    <button onclick="myFuncction()">Try It</button>
+    <p id="demo"></p>
+    <script>
+    let fruits = ["Manggo", "Kiwi", "Apple", "Orange"]
+    document.getElementById('demo').innerHTML = fruits
+
+    function myFuncction() {
+        fruits.sort()
+        fruits.reverse()
+        document.getElementById('demo').innerHTML = fruits
+    }
+    </script>
+</body>
+
+</html>

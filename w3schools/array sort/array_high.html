@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>array_high</title>
+</head>
+
+<body>
+    <p> The highest number is <span id="demo"></span></p>
+    <script>
+    let points = [20, 100, 50, 5, 1, 2]
+    points.sort(function(a, b) {
+        return b - a
+    })
+    document.getElementById('demo').innerHTML = points[0]
+    </script>
+</body>
+
+</html>
