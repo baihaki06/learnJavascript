@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>boolean</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+    let b1 = Boolean(100)
+    let b2 = Boolean(3.14)
+    let b3 = Boolean(-15)
+    let b4 = Boolean("Hello")
+    let b5 = Boolean('false')
+    let b6 = Boolean(1 + 7 + 1.34)
+
+    document.getElementById('demo').innerHTML =
+        "100 is " + b1 + "<br>" +
+        "3.14 is " + b2 + "<br>" +
+        "-15 is " + b3 + "<br>" +
+        "Any (not empty )String  is " + b4 + "<br>" +
+        "Even the string 'false' is " + b5 + "<br>" +
+        "eny expression(exceopt zero) is " + b6 + "<br>" 
+    </script>
+</body>
+
+</html>
