@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>exercise_comparisons5</title>
+</head>
+<body>
+	<p>exercise_comparisons5</p>
+	age <input type="number" id="age" value=18>
+	<button onclick="myFunction()">Check age</button>
+	<p id="demo"></p>
+
+	<script>
+		function myFunction() {
+			var age = document.getElementById('age').value
+			var voteable = (age < 18 ) ? " Too Young" : "Old enough"
+			document.getElementById('demo').innerHTML = voteable + " To vote"
+		}
+	</script>
+</body>
+</html>
