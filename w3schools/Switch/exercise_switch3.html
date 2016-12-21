@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>exercise_switch3</title>
+</head>
+<body>
+	<p>exercise_switch3</p>
+	<input type="text" id="myInput" value="Orange">
+	<button onclick="myFunction()">Check It</button>
+	<p id="demo"></p>
+
+	<script>
+		function myFunction() {
+			let text 
+			let fruits = document.getElementById('myInput').value
+
+			switch (fruits){
+				case "Banana" :
+					text = "Banana Is good"
+					break 
+				case "Orange":
+					text = "I not a fan of Orange"
+					break
+				case "Apple":
+					text = "How do you likes  them Apples"
+					break
+				default:
+					text = " I Have never heard of that fruits"
+
+			}
+			document.getElementById('demo').innerHTML = text
+		}
+	</script>
+</body>
+</html>

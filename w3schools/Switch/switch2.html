@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>switch2</title>
+</head>
+<body>
+	<p>switch2</p>
+	<p id="demo"></p>
+
+	<script>
+		let text
+		switch (new Date().getDay()){
+			case 0 :
+				text = "Today is Sunday"
+				break
+			case 6:
+				text = "today is saturday"
+				break
+			default :
+				text = "looking forward to the weekend"
+		}
+		document.getElementById('demo').innerHTML = text
+	</script>
+</body>
+</html>

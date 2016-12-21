@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>exercise_switch4</title>
+</head>
+<body>
+	<p>exercise_switch4</p>
+	<input type="text" id="myInput" value="BMW">
+	<button onclick="myFunction()">Check It</button>
+	<p id="demo"></p>
+
+	<script>
+		function myFunction() {
+			let text 
+			let cars = document.getElementById('myInput').value
+
+			switch(cars){
+				case "BMW":
+					text = "German car"
+					break 
+				case "Ford" :
+					text = "American car"
+				case "Peugeot" :
+					text = "French car"
+					break 
+				default :
+					text = "Unknown car name"
+			}
+			document.getElementById('demo').innerHTML = text
+
+		}
+	</script>
+</body>
+</html>
