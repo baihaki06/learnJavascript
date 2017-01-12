@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loop_for_om1</title>
+</head>
+<body>
+	<p>loop_for_om1</p>
+	<p id="demo"></p>
+
+	<script>
+		let cars = ["BMW", "Volvo", "Toyota", "Ford"]
+		let i , len , text
+		for(i= 0, len = cars.length , text = ""; i < len ; i++ ){
+			text +=  cars[i] + "<br>"
+		}
+		document.getElementById('demo').innerHTML = text
+	</script>
+</body>
+</html>

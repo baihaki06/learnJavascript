@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>object_for_in</title>
+</head>
+<body>
+	<p>object_for_in</p>
+	<p id="demo"></p>
+
+	<script>
+		let person = [fname= "Baihaki", lname = "Idris", age= 28]
+		let x 
+		let text = ''
+
+		for(x in person){
+			text += person[x] + " "
+		}
+		document.getElementById('demo').innerHTML = text 
+	</script>
+</body>
+</html>

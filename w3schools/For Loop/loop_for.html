@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loop_for</title>
+</head>
+<body>
+	<h1>JavaScript Loops</h1>
+	<p id="demo"></p>
+
+	<script>
+		let cars = ["BMW", "Toyota", "Mitsubishi" , "Honda", "VW", "Audi"]
+		let text = ""
+		let i
+		for (i = 0; i < cars.length; i++) {
+			text += cars[i] + "<br>" 
+		}
+		document.getElementById('demo').innerHTML = text
+	</script>
+</body>
+</html>

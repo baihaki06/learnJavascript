@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tryjs_loop_for_cars</title>
+</head>
+<body>
+
+	<p id="demo"></p>
+	<script>
+		let cars = ["BMW", "Toyota", "Honda", "Ford"]
+		var i = 0
+		var text = ""
+		for(; cars[i];){
+			text += cars[i] + "<br>"
+			i++
+		}
+		document.getElementById('demo').innerHTML = text
+	</script>
+</body>
+</html>
