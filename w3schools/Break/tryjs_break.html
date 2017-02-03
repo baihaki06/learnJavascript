@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tryjs_break</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script>
+		var text = "";
+		var i ;
+	
+		for(i = 0; i < 10 ; i++) {
+
+			if(i === 3){break;}
+			text += " This Number is" + i  +"<br>"
+		}
+		document.getElementById('demo').innerHTML = text
+	</script>
+</body>
+</html>
