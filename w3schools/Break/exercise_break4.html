@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>exercise_break4</title>
+</head>
+
+<body>
+    <input type="text" id="myinput" value="BMW">
+    <button onclick="checkCar()">check car</button>
+    <p id="demo"></p>
+    <script>
+    function checkCar() {
+        let text = ""
+        let favcar = document.getElementById('myinput').value
+
+        switch (favcar) {
+            case "BMW":
+                text = " German Car "
+                break
+            case "Toyota":
+                text = "Japan car"
+                break
+            case "Ford":
+                text = "American car"
+                break
+            default :
+            text = "Unknown car name"
+        }
+        document.getElementById('demo').innerHTML = text
+    }
+    </script>
+</body>
+
+</html>

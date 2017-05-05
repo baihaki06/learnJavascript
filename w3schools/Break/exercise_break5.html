@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>exercise_break5</title>
+</head>
+<body>
+	<p id="demo"></p>
+
+	<script>
+		let cars = ["BMW", "Volvo", "Subaru", "VW"]
+		let text = ""
+		let i 
+		for(i = 0 ; i < cars.length; i ++){
+			if (cars[i] === "Subaru" ) continue ;
+			text += cars[i] + "<br>"
+		}
+		document.getElementById("demo").innerHTML = text
+	</script>
+</body>
+</html>
